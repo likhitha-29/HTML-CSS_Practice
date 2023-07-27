@@ -1,0 +1,31 @@
+html,body {
+    height:100%;
+    width: 100%;
+    margin: 0;
+    padding:0;
+    background-color: beige;
+}
+.maindiv {
+    display:flex;
+    height: 100%;
+    width: 100%;
+}
+.div1{
+    margin:10px;
+}
+.imgdiv {
+    margin:10px;
+    margin-bottom: 10px;
+    border:1px solid black;
+    border-radius: 10px;
+    transition: transform 0.6s ease-in-out;   
+}
+.imgdiv:hover {
+    transform:scale(1.1);
+  
+}
+img {
+    height:250px;
+    width:250px;
+    border-radius: 15px;;
+}
