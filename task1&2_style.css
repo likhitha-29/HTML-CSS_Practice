@@ -46,4 +46,6 @@ footer {
     background-color: #87AAAA;
     height: 60px;
     color:black;
+    justify-content:center;
+    text-align:center;
 }
